@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Soft blue gradient to match the ocean theme */
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #1a73e8; /* Bold blue for the title */
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    padding: 14px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #155a8a; /* Darker blue on hover */
+}
+
+.result {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.3em;
+    color: darkgreen;
+    font-weight: bold;
+    background-color: #d1f7d1; /* Light green background for results */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.model-message {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+    font-style: italic;
+}
+
+form input, form select {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    button {
+        font-size: 1.1em;
+    }
+}
